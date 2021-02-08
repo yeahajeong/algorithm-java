@@ -61,7 +61,7 @@ public class Explanation {
 
   /*
   * 자바에서는 Object를 사용하는것이 나쁜 것은 아니지만
-  * 프리미티브를 사용하는것이 더 이득
+  * Primitive를 사용하는것이 더 이득
   *
   * Tip. 효율성 높이기
   * 1. Loop 개선
