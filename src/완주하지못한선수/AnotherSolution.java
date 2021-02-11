@@ -11,6 +11,8 @@ public class AnotherSolution {
 
     // 파이썬의 Counter와 같은 기능
     // 각각의 개수를 해시맵에 저장
+    /* getOrDefault(Object key-찾을 키값, V defaultValue-없다면 반환할 값)
+    * 찾는 키가 존재한다면 찾는 키의 값을 반환하고 없다면 기본 값을 반환한다.*/
     for (String p : participant) hm.put(p, hm.getOrDefault(p, 0) + 1);
     // 완료자를 해시맵에서 빼기
     for (String c : completion) hm.put(c, hm.get(c) - 1);
