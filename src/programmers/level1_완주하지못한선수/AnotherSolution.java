@@ -1,4 +1,4 @@
-package 완주하지못한선수;
+package programmers.level1_완주하지못한선수;
 
 import java.util.HashMap;
 

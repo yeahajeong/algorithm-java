@@ -1,4 +1,4 @@
-package 베스트앨범_다시풀것;
+package programmers.level3_베스트앨범_다시풀것;
 
 // https://programmers.co.kr/learn/courses/30/lessons/42579?language=java#
 

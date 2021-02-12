@@ -1,4 +1,4 @@
-package 기지국설치;
+package programmers.기지국설치;
 import java.util.*;
 
 /*

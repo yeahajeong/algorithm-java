@@ -1,4 +1,4 @@
-package 전화번호목록;
+package programmers.level2_전화번호목록;
 import java.util.*;
 
 // https://programmers.co.kr/learn/courses/30/lessons/425
