@@ -2,12 +2,15 @@ package programmers.level1_K번째수;
 //https://programmers.co.kr/learn/courses/30/lessons/42748
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class Solution {
 
   public int[] solution(int[] array, int[][] commands) {
+
+    // 1. 자른다
+    // 2. 정렬한다
+    // 3. index에 해당하는 값을 꺼낸다
 
     ArrayList<Integer> arrayList = new ArrayList<>();
     int[] answer = new int[commands.length];
@@ -24,6 +27,7 @@ public class Solution {
     return answer;
   }
 
+  //처음 푼 풀이 실패
   public int[] fail(int[] array, int[][] commands) {
 
     ArrayList<Integer> answerArrList = new ArrayList<>();
