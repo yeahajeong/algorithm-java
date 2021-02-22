@@ -1,5 +1,6 @@
-package codility.binaryGap;
-//https://app.codility.com/c/run/training8YD429-FEA/
+package codility.BinaryGap;
+// [Iterations]
+// https://app.codility.com/programmers/lessons/1-iterations/
 
 import java.util.ArrayList;
 import java.util.Collections;

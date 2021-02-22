@@ -1,4 +1,4 @@
-package codility.binaryGap;
+package codility.BinaryGap;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
