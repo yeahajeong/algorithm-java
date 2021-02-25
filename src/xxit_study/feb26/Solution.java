@@ -44,7 +44,6 @@ public class Solution {
         hm.remove(name);
         hm.put(name, count);
       }
-
     }
 
     for (String key : hm.keySet()) {
