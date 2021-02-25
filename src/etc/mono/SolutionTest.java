@@ -1,4 +1,4 @@
-package etc;
+package etc.mono;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -6,8 +6,6 @@ import static org.junit.Assert.*;
 public class SolutionTest {
 
   Solution solution = new Solution();
-  Sc scsol = new Sc();
-
 
   @Test
   public void 테스트1() {
@@ -17,7 +15,6 @@ public class SolutionTest {
     int Return = 3;
 
     assertEquals(Return, solution.solution(A, B));
-    assertEquals(Return, scsol.solution(A, B));
   }
 
   @Test
