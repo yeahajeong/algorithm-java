@@ -13,7 +13,25 @@ package etc.nf;
 
 public class Solution2 {
 
-  public int solution(int inner, int outer, int[] points_x, int[] points_y) {
+  // 생각해보니까 제곱을 하면 굳이 Math를 써서 안바꿔줘도 될거같아 -> 통과된 풀이
+  public int solution2(int inner, int outer, int[] points_x, int[] points_y) {
+    long startTime = System.currentTimeMillis();
+    int answer = 0;
+    int x, y;
+
+    for (int i = 0; i < points_x.length; i++) {
+      x = points_x[i];
+      y = points_y[i];
+      if (inner < Math.sqrt((double) ((x * x) + (y * y))) && Math.sqrt((double) ((x * x) + (y * y))) < outer) {
+        answer += 1;
+      }
+    }
+    long endTime = System.currentTimeMillis();
+    System.out.println("수행시간 : " + (float) (endTime - startTime) / 1000);
+    return answer;
+  }
+
+  public int solution1(int inner, int outer, int[] points_x, int[] points_y) {
     int answer = 0;
     int x, y;
 
@@ -26,6 +44,24 @@ public class Solution2 {
       }
     }
     return answer;
+  }
+
+  // 다른사람이 푼 풀이
+  public int solution3(int inner, int outer, int[] points_x, int[] points_y) {
+    long startTime = System.currentTimeMillis();
+    int cnt=0;
+    for(int i=0; i<points_x.length; i++){
+      for(int j=i; j<points_y.length; j++){
+        if (i!=j) continue;
+        if (inner <= Math.abs(points_x[i]) && inner <= Math.abs(points_y[j])
+          && outer >= Math.abs(points_x[i]) && outer >= Math.abs(points_y[j])){
+          cnt++;
+        }
+      }
+    }
+    long endTime = System.currentTimeMillis();
+    System.out.println("수행시간 : " + (float) (endTime - startTime) / 1000);
+    return cnt;
   }
 
 }

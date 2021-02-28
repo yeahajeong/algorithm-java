@@ -15,7 +15,8 @@ public class Solution2Test {
     int[] points_y = {0, 1, 4, 1, 0};
     int Return = 2;
 
-    assertEquals(Return, solution.solution(inner, outer, points_x, points_y));
+    assertEquals(Return, solution.solution2(inner, outer, points_x, points_y));
+    assertEquals(Return, solution.solution3(inner, outer, points_x, points_y));
   }
 
   @Test
@@ -26,6 +27,7 @@ public class Solution2Test {
     int[] points_y = {-4, 4, 3, 0};
     int Return = 1;
 
-    assertEquals(Return, solution.solution(inner, outer, points_x, points_y));
+    assertEquals(Return, solution.solution2(inner, outer, points_x, points_y));
+    assertEquals(Return, solution.solution3(inner, outer, points_x, points_y));
   }
 }

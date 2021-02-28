@@ -15,7 +15,6 @@ package xxit_study.feb28;
 *   - 일치하면 count를 해준다.
 *   - 일치하지 않으면 앞쪽에 쌓아둔 문자열을 결과로 보내고 count를 1로 변경한다.
 * 4. 반복한다.
-*
 * */
 
 import java.util.LinkedList;
