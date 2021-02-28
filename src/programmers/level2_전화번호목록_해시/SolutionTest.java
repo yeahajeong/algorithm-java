@@ -1,4 +1,4 @@
-package programmers.level2_전화번호목록;
+package programmers.level2_전화번호목록_해시;
 
 import org.junit.Test;
 

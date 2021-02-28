@@ -1,4 +1,4 @@
-package programmers.level2_위장;
+package programmers.level2_위장_해시;
 
 // https://programmers.co.kr/learn/courses/30/lessons/42578?language=java
 

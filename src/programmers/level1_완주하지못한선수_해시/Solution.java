@@ -1,4 +1,4 @@
-package programmers.level1_완주하지못한선수;
+package programmers.level1_완주하지못한선수_해시;
 
 import java.util.Arrays;
 

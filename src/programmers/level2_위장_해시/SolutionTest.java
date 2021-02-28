@@ -1,4 +1,4 @@
-package programmers.level2_위장;
+package programmers.level2_위장_해시;
 
 import org.junit.Test;
 
