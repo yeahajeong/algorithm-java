@@ -1,4 +1,4 @@
-package baekjoon.약수구하기;
+package baekjoon.PART1.튼튼한기본기.약수구하기;
 
 import org.junit.Test;
 
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SolutionTest {
 
-  Solution solution = new Solution();
+  Main solution = new Main();
 
   @Test
   public void 약수_구하기_테스트1() {
