@@ -1,4 +1,4 @@
-package baekjoon.PART1.튼튼한기본기.약수구하기;
+package baekjoon.PART1_튼튼한기본기.약수구하기;
 //https://www.acmicpc.net/problem/2501
 
 import java.util.ArrayList;

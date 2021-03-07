@@ -1,4 +1,4 @@
-package baekjoon.PART1.튼튼한기본기.약수구하기;
+package baekjoon.PART1_튼튼한기본기.약수구하기;
 
 import org.junit.Test;
 

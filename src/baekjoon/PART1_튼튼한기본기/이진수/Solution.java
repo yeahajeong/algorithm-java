@@ -1,4 +1,4 @@
-package baekjoon.PART1.튼튼한기본기.이진수;
+package baekjoon.PART1_튼튼한기본기.이진수;
 
 import java.util.*;
 
