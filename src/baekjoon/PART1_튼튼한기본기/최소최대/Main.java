@@ -23,7 +23,7 @@ public class Main {
   public static void solution1() throws IOException {
     /* Scanner vs BufferedReader 비교
     - Scanner 사용
-    선언 방식이 쉽고 간단, 다양b한 자료형을 입력값으로 저장 가능
+    선언 방식이 쉽고 간단, 다양한 자료형을 입력값으로 저장 가능
     next() : 공백 이전까지의 문자를 입력받음
     nextLine() : 개행 전까지의 문자열 전체를 입력받음 -> 한줄씩 입력받음
     버퍼의 길이가 1024로 한정적, 한번에 많은 입력값을 저장하는데 비효율적
