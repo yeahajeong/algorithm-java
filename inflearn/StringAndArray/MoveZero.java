@@ -1,4 +1,4 @@
-package inflearn.StringAndArray;
+package StringAndArray;
 
 /*
 * Given an array nums, write a function to move all 0's to the end of it
